@@ -599,6 +599,20 @@ p {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  margin-bottom: 20px;
+}
+
+.sign-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  margin-right: 12px;
+
+  background-color: #2f303a;
 }
 
 .address {
@@ -614,6 +628,46 @@ p {
 
 .contacts.link.mail {
   margin: 9px 0;
+}
+
+.footer-subscribe {
+  margin-top: 12px;
+  margin-left: 93px;
+}
+
+.signup-form {
+  display: flex;
+  align-items: center;
+}
+
+.subscribe-button {
+  background-color: var(--acceent-color);
+  color: var(--primary-bg-color);
+
+  display: inline-flex;
+  flex-direction: row-reverse;
+  align-items: center;
+
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: inherit;
+  border-radius: 4px;
+
+  cursor: pointer;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* margin-top: 40px; */
+  padding: 10px 29px;
+}
+
+.subscribe-icon {
+  fill: var(--secondary-text-color);
+
+  margin-left: 10px;
 }
 
 /* Portfolio */
